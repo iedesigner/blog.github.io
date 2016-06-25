@@ -1,0 +1,18 @@
+---
+layout: post
+title: "All about the brand"
+date:   2016-05-30 09:45:36
+catergories:
+- programming
+image: business-cards.jpg
+---
+
+![Business cards](/img/business-cards-3.jpg)
+
+I am **_so damn pleased_** with the new business cards. So pleased, that I am blogging about them.
+
+I've been redesigning my website. I wanted to learn some new skills so I started to redesign my website and generally improve my projects and list of projects.
+
+Firstly, why iedesigner.
+
+I thought it was an interesting spot when the ie within my slightly unusual name.

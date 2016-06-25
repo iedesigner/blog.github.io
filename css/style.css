@@ -1,0 +1,272 @@
+ /* body */
+body{
+  /*  background-color: #413b3c; */
+background:  url("../images/subtle-dots-bg.png") center center;
+background-repeat: repeat-y repeat-x;
+background: -webkit-linear-gradient(right, #0C090A, #3E3B3C);
+background: linear-gradient(to right, #0C090A, #3E3B3C);
+ }
+
+
+html {
+    position: relative;
+ }
+
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* wrapper */
+
+.wrapper{
+    background-color: #ccc;
+    padding: 20px 15px 20px 15px;
+}
+
+
+
+
+.navwrap{
+  background-color: #413b3c;
+
+
+  height:100px;
+
+  max-width: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 20px; }
+
+/*
+max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px; }
+
+    @media screen and (max-width: 800px) {
+      .wrapper {
+        max-width: -webkit-calc(800px - (30px));
+        max-width: calc(800px - (30px));
+        padding-right: 15px;
+        padding-left: 15px; } }
+
+*/
+
+.indbg{
+  background-color:#ccc;
+  padding-top:25px;
+}
+
+/* typography */
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size:14px;
+    line-height: 21px;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif; font-weight:700;
+  color:#413b3c;
+  text-align: left;
+  font-size:26px;
+  padding-top:10px;
+  text-decoration:none;
+  text-transform: none;
+}
+
+
+h1, .post__title, .post__title--grouped a{
+  font-family: 'Open Sans', sans-serif; font-weight:700;
+  color:#413b3c !important;
+  text-align: left;
+  font-size:26px!important;
+  line-height:32px;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+
+
+h2{
+  font-family: 'Open Sans', sans-serif; font-weight:700;
+  color:#413b3c;
+  text-align: left;
+  font-size:13px;
+  text-decoration:none;
+  text-transform: none;
+}
+
+h3 a{
+  font-family: 'Open Sans', sans-serif; font-weight:700;
+  color:#413b3c !important;
+  text-align: left;
+  font-size:20px;
+  text-decoration:underline;
+  text-transform: none;
+}
+
+/* style for posts  */
+.post__content{
+  margin-bottom:120px;
+
+}
+.post__author{
+    color:#000;
+}
+
+.post__date{
+ text-align:left;
+ font-family: 'Open Sans', sans-serif; font-weight:400;
+ color:#000;
+}
+
+
+.post__meta{
+  text-align: left;
+}
+
+/* style for site logo */
+.site-logo {
+	min-width: 220px;
+	max-width: 220px;
+	height: 60px;
+	background-size: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/logo-edges.gif') no-repeat;
+	background-size: 100%;
+	display: block;
+	text-align: center;
+	float:left;
+}
+
+  @media screen and (max-width: 480px) {
+    .site-logo{
+     display:none;
+}
+}
+
+/* styles for nav */
+
+nav.main-nav ul {
+ padding: 0;
+ list-style: none;
+ float: right;
+}
+
+nav.main-nav li,
+nav.main-nav a {
+ display: inline-block;
+}
+
+nav.main-nav li a {
+   margin-top: 10px;
+   margin-bottom:50px;
+   padding: 20px 10px 10px 0px;
+
+   font-size: 14px;
+   color:#000;
+   font-family: 'Open Sans', sans-serif; font-weight:400;
+   text-decoration:none;
+ }
+
+nav.main-nav li a.active {
+ color: #FFFF00 !important;
+ text-decoration: underline !important;
+}
+
+a.notactive {
+ color: #000;
+}
+
+/* container */
+
+div.container,
+div.small-container {
+ margin: 0 auto;
+ padding: 0 20px;
+}
+
+div.container {
+ max-width: 970px;
+
+ }
+
+div.small-container {
+ max-width: 700px;
+}
+
+ footer{
+   color:#999!important;
+   text-align:center;
+   background-color:none!important;
+   width:100%;
+   left: 0;
+   bottom: 0;
+   height: 100px;
+   border-top:1px;
+   font-size:13.5px;
+
+ }
+
+
+ footer p{
+   color:#999!important;
+
+ }
+/* footers */
+
+/* for posts */
+ .postbg{
+   background-color: #FFF;
+   padding:10px;
+   margin-top:10px;
+ }
+/* bg */
+.subtledots{
+	background:  url("../images/subtle-dots-bg.png") center center;
+	background-repeat: repeat-y repeat-x;
+	background-color:#3E3B3C;
+}
+
+/* pagination */
+.pagination{
+ background-color:#fff;
+ color:#000;
+}
+
+/* links */
+a {
+  color:#323232;
+  text-decoration: underline; }
+  a:visited {
+    color:#323232;
+  text-decoration: underline; }
+  a:hover {
+    color: #FFFF00;
+    text-decoration: underline; }
+
+
+/* hr */
+    hr {
+      height: 1px;
+         color: none;
+         background: none;
+         font-size: 0;
+         border: 0;
+         margin: 25px 0px 25px 0px;
+
+}
+
+/* margin top */
