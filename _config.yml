@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The official iedesigner blog
+title: iedesigner blog
 email: peter@iedesigner.com
 description: i.e. all things interactive
 url: "http://www.iedesigner.com/blog" # the base hostname & protocol for your site

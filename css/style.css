@@ -1,10 +1,12 @@
  /* body */
+
+
 body{
   /*  background-color: #413b3c; */
 background:  url("../images/subtle-dots-bg.png") center center;
 background-repeat: repeat-y repeat-x;
-background: -webkit-linear-gradient(right, #0C090A, #3E3B3C);
-background: linear-gradient(to right, #0C090A, #3E3B3C);
+background: -webkit-linear-gradient(right, #FFF, #413b3c);
+background: linear-gradient(to right, #FFF, #413b3c);
  }
 
 
@@ -12,12 +14,7 @@ html {
     position: relative;
  }
 
-hr{
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
+
 /* wrapper */
 
 .wrapper{
@@ -89,7 +86,7 @@ h1, .post__title, .post__title--grouped a{
   text-align: left;
   font-size:26px!important;
   line-height:32px;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: none;
 }
 
@@ -111,6 +108,32 @@ h3 a{
   font-size:20px;
   text-decoration:underline;
   text-transform: none;
+}
+
+h4 {
+  font-size:16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#413b3c !important;
+  text-decoration:none;
+  font-style: italic;
+}
+
+.otherwords{
+
+ margin-top:30px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.otherwords h5{
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:64px !important;
+  line-height:64px !important;
+  color:#000;
+ text-align:center!important;
+ text-transform: uppercase;
+
 }
 
 /* style for posts  */
@@ -248,25 +271,52 @@ div.small-container {
 
 /* links */
 a {
+  	transition: all 0.25s ease 0s;
   color:#323232;
   text-decoration: underline; }
   a:visited {
     color:#323232;
   text-decoration: underline; }
   a:hover {
-    color: #FFFF00;
+    color: #858585;
     text-decoration: underline; }
 
 
 /* hr */
-    hr {
-      height: 1px;
-         color: none;
-         background: none;
-         font-size: 0;
-         border: 0;
-         margin: 25px 0px 25px 0px;
+hr{
+    margin: 20px 0px 20px 0px;
+    border: 0;
+    border-bottom: 1px dotted #ccc;
+    background: #999;
+}
+
+.share{
+  margin:40px 0px 40px 0px;
 
 }
 
-/* margin top */
+/* site-header */
+.site-header {
+    border-top: 0px !important;
+    border-bottom: 0px solid #999;
+    min-height: 56px;
+    position: relative;
+
+  }
+/* site-footer */
+  .site-footer {
+    border-top: 0px !important;
+    background-color: #FFFF00;
+  }
+
+  .site-footer p{
+    color:#000 !important;
+  }
+
+
+
+/* selector color */
+::-moz-selection { background:rgba(255,255,0, 0.5)!important;}
+::-moz-selection { color: #000}
+::selection { color: #000; }
+::selection { background:rgba(255,255,0, 0.5); }
