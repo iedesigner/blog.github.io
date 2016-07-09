@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Website: Combining Skills Visual Design and Technology"
+title:  "New Website: Combining Visual Design and Technology Skills"
 date:   2016-07-06 15:00:00 +0100
 categories: website development
 ---
