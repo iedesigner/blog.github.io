@@ -7,6 +7,6 @@ image: business-cards.jpg
 
 ---
 
-![My helpful screenshot]({{ site.url }}/img/business-cards-3.jpg)
+![My helpful screenshot]({{ site.url }/img/business-cards-2.jpg)
 
 New business cards.
