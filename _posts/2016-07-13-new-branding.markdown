@@ -7,6 +7,6 @@ image: business-cards.jpg
 
 ---
 
-![My helpful screenshot](/img/business-cards-2.jpg)
+![My helpful screenshot](iedesigner.github.io/img/business-cards-2.jpg)
 
 New business cards.
