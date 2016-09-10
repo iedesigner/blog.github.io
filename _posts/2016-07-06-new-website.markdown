@@ -9,6 +9,6 @@ My new website is up with some of my latest projects that I've working on for th
 
 Having  worked extensively in code for my final major project at University, The Forgetful Typewriter, I became interested in expanding my coding skills into front end development. This involved learning responsive frameworks such as Bootstrap, as well as custom theme development for CMS's, such as WordPress and Joomla!. I am excited to continue to work with clients, handling both the branding and front end development of web projects.  
 
-More recently, I've been looking at JavaScript and JS libraries such as JQuery, and it's been fascinating to explore some of the creative possibilities of coding for the web. This includes writing apps to enhance the digital experience of websites.
+More recently, I've been looking at JavaScript and JS libraries such as JQuery, and it's been fascinating to explore some of the creative possibilities of coding for the web. This includes writing apps to enhance the user experience of websites.
 
  I'll be using this blog to write opinionated articles about the world of technology, as well as to keep track of everything that I'm learning.
