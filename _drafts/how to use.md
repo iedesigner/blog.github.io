@@ -1,18 +1,13 @@
 Using the ie blog
 
-
-Where the website files are saved –
-
-Go to peterwilliamjamesaiello
 Open ie_blog with atom text editor
 
 
 Adding a new post
 
 (you might be prompted to login to git hub: )
-username: iedesigner
 
-
+Publishing changes
 cd ie_blog
 Update: git status
 Git add .
