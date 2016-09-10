@@ -9,7 +9,7 @@
 title: iedesigner blog
 email: peter@iedesigner.com
 description: i.e. all things interactive
-url: "http://www.iedesigner.com/blog" # the base hostname & protocol for your site
+url: "https://iedesigner.github.io" # the base hostname & protocol for your site
 twitter_username: ie_designer
 
 # Build settings
